@@ -1,6 +1,7 @@
 import sys
 
-def wlan_connect(ssid='WELLSUH 2G', password='01530134'):
+
+def wlan_connect(ssid='sid', password='pass'):
     import network
     wlan = network.WLAN(network.STA_IF)
     if not wlan.active() or not wlan.isconnected():
@@ -11,5 +12,6 @@ def wlan_connect(ssid='WELLSUH 2G', password='01530134'):
             pass
     print('network config:', wlan.ifconfig())
     print('Conectado')
+
 
 wlan_connect()

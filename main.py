@@ -4,7 +4,7 @@ import utime
 import gc
 import micropython
 
-URL = 'esp32well/esp32'
+URL = 'firebaseURL'
 sair = 0
 
 
